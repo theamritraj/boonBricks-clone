@@ -12,3 +12,20 @@ document.getElementById('darkModeToggle').addEventListener('click', function () 
 
 
 
+
+// footer
+
+   // Show back-to-top button when scrolling
+   const backToTopButton = document.getElementById('backToTop');
+   window.addEventListener('scroll', () => {
+       if (window.scrollY > 200) {
+           backToTopButton.style.display = 'block';
+       } else {
+           backToTopButton.style.display = 'none';
+       }
+   });
+
+   // Scroll to top functionality
+   backToTopButton.addEventListener('click', () => {
+       window.scrollTo({ top: 0, behavior: 'smooth' });
+   });
