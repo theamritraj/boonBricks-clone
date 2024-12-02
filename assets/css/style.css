@@ -20,50 +20,46 @@ body.dark-mode {
 
 
 
-<<<<<<< Updated upstream
-/* Footer */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
-.footer {
-    background-color: #f7f7f7;
-    padding: 50px 0;
-    color: #666;
-  }
-  
-  .footer h4 {
-    font-size: 18px;
-    margin-bottom: 20px;
-  }
-  
-  .footer ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .footer li {
-    margin-bottom: 10px;
-  }
-  
-  .footer a {
-    color: #666;
-    text-decoration: none;
-  }
-  
-  .footer a:hover {
-    color: #4CAF50;
-  }
-  
-  .footer .fa {
-    margin-right: 10px;
-  }
-  
-  .footer p {
-    font-size: 14px;
-    margin-bottom: 0;
-  }
-=======
- 
+.logo img {
+  height: 36px;
+  margin: 10px;
+}
 
+.menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
 
+.menu li {
+  list-style: none;
+}
 
->>>>>>> Stashed changes
+.menu a {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  color: #343a40;
+  transition: color 0.3s;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.menu a:hover {
+  color: #007bff;
+}
+
+.btn-primary {
+  font-family: 'DM Sans', sans-serif;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
