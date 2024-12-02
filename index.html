@@ -29,83 +29,89 @@
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<<<<<<< Updated upstream
-<body id="top" class="light-mode">
-  <header class="header d-flex justify-content-between align-items-center">
-    <div class="logo">
-      <img src="./assets/img/logo.webp" alt="Logo">
-    </div>
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="menu navbar-nav ms-auto">
-          <li class="nav-item me-3">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item me-3">
-            <a class="nav-link" href="aboutus.html">About Us</a>
-          </li>
-          <li class="nav-item me-3">
-            <a class="nav-link" href="courses.html">Our Courses</a>
-          </li>
-          <li class="nav-item me-3">
-            <a class="nav-link" href="gallery.html">Our Gallery</a>
-          </li>
-          <li class="nav-item me-3">
-            <a class="nav-link" href="blog.html">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contactus.html">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    
-    <!-- Get a Quote (visible only on larger screens) -->
-    <div class="d-none d-md-block">
-      <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">Get a Quote</button>
-    </div>
-  </header>
 
-  <!-- Modal for Get a Quote Form -->
-  <div class="modal fade" id="quoteModal" tabindex="-1" aria-labelledby="quoteModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="quoteModalLabel">Request a Quote</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+<body id="top">
+  <div class="wrapper">
+    <header class="header d-flex justify-content-between align-items-center">
+      <div class="logo">
+        <img src="./assets/img/logo.webp" alt="Logo">
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="menu navbar-nav ms-auto">
+            <li class="nav-item me-3">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="courses.html">Our Courses</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="gallery.html">Our Gallery</a>
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contactus.html">Contact Us</a>
+            </li>
+          </ul>
         </div>
-        <div class="modal-body">
-          <form>
-            <div class="mb-3">
-              <label for="name" class="form-label">Full Name</label>
-              <input type="text" class="form-control" id="name" placeholder="Enter your full name" required>
-            </div>
-            <div class="mb-3">
-              <label for="email" class="form-label">Email Address</label>
-              <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
-            </div>
-            <div class="mb-3">
-              <label for="message" class="form-label">Message</label>
-              <textarea class="form-control" id="message" rows="4" placeholder="Enter your message" required></textarea>
-            </div>
-            <div class="mb-3">
-              <label for="services" class="form-label">Services Interested In</label>
-              <select class="form-select" id="services" required>
-                <option selected disabled>Select a service</option>
-                <option value="webDesign">Web Design</option>
-                <option value="seo">SEO Services</option>
-                <option value="appDev">App Development</option>
-              </select>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit Request</button>
-          </form>
+      </nav>
+      
+      <!-- Get a Quote (visible only on larger screens) -->
+      <div class="d-none d-md-block">
+        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#quoteModal">Get a Quote</button>
+      </div>
+    </header>
+  
+    <!-- Modal for Get a Quote Form -->
+    <div class="modal fade" id="quoteModal" tabindex="-1" aria-labelledby="quoteModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="quoteModalLabel">Request a Quote</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your full name" required>
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Enter your message" required></textarea>
+              </div>
+              <div class="mb-3">
+                <label for="services" class="form-label">Services Interested In</label>
+                <select class="form-select" id="services" required>
+                  <option selected disabled>Select a service</option>
+                  <option value="webDesign">Web Design</option>
+                  <option value="seo">SEO Services</option>
+                  <option value="appDev">App Development</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit Request</button>
+            </form>
+          </div>
         </div>
       </div>
     </div>
+  
   </div>
+
+
+  <!-- Footer -->
 
   <footer class="footer">
     <div class="container">
@@ -150,10 +156,6 @@
       </div>
     </div>
   </footer>
-=======
-<body id="top">
-
->>>>>>> Stashed changes
   
 </body>
 
