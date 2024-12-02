@@ -2,13 +2,21 @@
   #index.css
 \*-----------------------------------*/
 
-
-
-
 /**
- * copyright @2024 thesandeeprai
+ * Copyright @2024 thesandeeprai
  */
 
+/* Header Styles */
+
+body.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
 
 
 
