@@ -2,13 +2,64 @@
   #index.css
 \*-----------------------------------*/
 
-
-
-
 /**
- * copyright @2024 thesandeeprai
+ * Copyright @2024 thesandeeprai
  */
 
+/* Header Styles */
+
+body.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
 
 
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  height: 36px;
+  margin: 10px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.menu li {
+  list-style: none;
+}
+
+.menu a {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  color: #343a40;
+  transition: color 0.3s;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.menu a:hover {
+  color: #007bff;
+}
+
+.btn-primary {
+  font-family: 'DM Sans', sans-serif;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
